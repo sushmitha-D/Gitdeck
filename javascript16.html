@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <p id="d1"></p>
+        <script>
+            function Sample()
+            {
+               // alert("This is Sample function")
+               pid=parseInt(prompt("Enter the pid is::"))
+               if(pid==1001)
+               {
+                  document.getElementById("d1").innerHTML="Pid is Equal";
+               }
+               else
+               {
+                document.getElementById("d1").innerHTML="Pid is Not Equal";
+               }
+            }
+        </script>
+        <button type="button" onclick="Sample()">ClickHere</button>
+    </body>
+</html>
