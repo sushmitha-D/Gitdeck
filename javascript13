@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <div class="example1">
+            This is Example1
+        </div>
+        <div class="example2">
+           This is Example2
+        </div>
+        <script>
+           const collection=document.getElementsByClassName("example1");
+           collection[0].innerHTML="HelloWelcome"; 
+        </script>
+    </body>
+</html>
