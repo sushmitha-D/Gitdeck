@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <p>An UnOrdered list</p>
+        <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+        </ul>
+        <p id="d1"></p>
+        <script>
+            const collection=document.getElementsByTagName("li");
+            document.getElementById("d1").innerHTML=collection[1].innerHTML;
+        </script>
+    </body>
+</html>
